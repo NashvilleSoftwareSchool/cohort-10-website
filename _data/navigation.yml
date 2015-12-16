@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: About Cohort 9
+  url: "#nss9"
+  excerpt:
+  image: NSSlogo.jpg #about 430 by 430 pixels
+
+- title: Our Specialties
+  url: "#specialize"
+  excerpt:
+  image: NSSlogo.jpg
+
+- title: Meet Us
+  url: "#meetus"
+  excerpt:
+  image: NSSlogo.jpg

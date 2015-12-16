@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div class="splash">
+    <img src="/images/2015_08_26_NSS_Group_Cohort_9_0003_T.jpg" class="group-pic " mouseover-src="/images/2015_08_26_NSS_Group_Cohort_9_0015_T.jpg" >
+  </div>
+  <a id="nss9"></a>
+  <h1 class="title"> We are NSS Cohort 9 </h1>
+
+
+<div class="about">
+  <span> After six months of intensive training and coding +40 hours/week, </span>
+  <span> Countless cups of coffee and tea, </span>
+  <span> A few too many games of ping pong, </span>
+  <span> Dozens of apps and thousands of lines of code, </span>
+  <h3> We are Cohort 9 and we are ready for your coding challenges! </h3>
+</div>
+
+
+<div class="specialization">
+  <a id="specialize"></a>
+  <h1>Our Specialties</h1>
+  <p>
+The curriculum at NSS has given us both the skill and the knowledge of technology required to become junior full-stack software developers, including:
+  </p>
+  <img src='images/html5logo.png' title="HTML5">
+  <img src='images/CSS3logo.jpg' title="CSS3">
+  <img src='images/javascriptlogo.png' title="Javascript">
+  <img src='images/jquerylogo.png' title="JQuery">
+  <img src='images/angularlogo.png' title="AngularJS">
+  <img src='images/nodejs-green.png' title="Node.js">
+  <img src='images/sqllogo.png' title="SQL and Databases">
+  <img src='images/MongoDB_Logo_Full_White.png' title="MongoDB">
+  <img src='images/githublogo.png' title="Github and Git">
+</div>
+
+
+    <!--Example of listing students -->
+<div id="meetus" class="meetus">
+  <h1 class="page-heading">Meet Us</h1>
+  <p> We are much more than the technologies we know. Click on the images below to visit our personal sites. Invite us for a chat. We would love to get to know you. </p>
+  <ul>
+    {% for student in site.students %}
+    <li class="student-list">
+      <div class="profile-cell">
+        <a class="studentlink"href={{student.site}} >
+          <div class="crop">
+            <img class="student-pic" mouseover-src={{student.colorimg}} src={{student.image}}>
+
+          </div>
+
+
+          <h6 class="student-name">{{student.name}}</h6></a>
+        <span class="student-bio">{{student.bio}}</span>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+
+</div>

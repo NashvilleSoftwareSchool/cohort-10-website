@@ -1,0 +1,172 @@
+.home {
+  h1 {
+    text-align: center;
+  }
+
+  .separator {
+    border: 3px solid black;
+  }
+  .title {
+    margin-top: -75px;
+    color: white;
+    margin-bottom: 100px;
+  }
+
+  .student-list {
+    list-style: none;
+    display: inline-block;
+
+    em {
+      color: rgb(0,0,0);
+      display: block;
+
+    }
+  }
+
+  .about, .specialization {
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+
+  .meetus {
+    text-align: center;
+  }
+
+  .specialization {
+    img {
+      height: 100px;
+      display: inline-block;
+      padding: 10px;
+    }
+    display: block;
+    text-align: center;
+
+  }
+
+  .about {
+    p, span, h3 {
+      display: block;
+      font-size: 2em;
+      text-align: center;
+    }
+  }
+  .profile-cell {
+    display: inline-block;
+    width: 280px;
+    margin: 10px 3px ;
+    height: 535px;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: #E7E3C5 ;
+
+    text-align: left;
+      span, h6, h3 {
+        display: block;
+
+      }
+      img {
+        width: 90%;
+        margin: 5%;
+      }
+      #more {
+        display: block;
+        float: right;
+      }
+  }
+
+  .profile-cell:hover {
+    font-style: bold;
+  }
+
+}
+
+span.student-bio {
+  text-align: left;
+  margin: 0 15px 20px 20px;
+
+}
+h6.student-name{
+    margin: 0px;
+    padding: 0px 0;
+    color: #036067;
+    text-align: center;
+  }
+h6.student-name:hover {
+  color: #357f85;
+}
+
+  .home .profile-cell {
+    width: 280px !important;
+
+  }
+  img.student-pic{
+    border: white 3px solid;
+  }
+
+
+nav ul li a:hover{
+  color: #82B222;
+}
+
+h1 {
+  color: #357f85 !important;
+}
+h1.title {
+  color: white !important;
+  font-family: 'Hind', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+}
+
+body{
+  background-image: url("/images/furley.png") !important;
+}
+
+.inner-wrap {
+  max-width: 900px;
+}
+
+.menu-item{
+  float: right !important;
+}
+
+.site-title{
+  color: #357f85 !important;
+}
+
+@media (max-width: 700px) {
+  h1.title {
+
+    font-size: 40px;
+  }
+}
+@media (max-width: 500px) {
+  h1.title {
+    margin-top: -39px !important;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .site-title {
+    display: inline-block !important;
+  }
+}
+
+// @media (max-width: 700px) {
+//
+//   .menu .top-menu .nav-link {
+//     display: inline-block !important;
+//     float: left;
+//     visibility: visible;
+//   }
+// }
+
+@media (max-width: 450px) {
+  .menu-item li a {
+    font-size: 14px;
+    float: left;
+
+  }
+}
