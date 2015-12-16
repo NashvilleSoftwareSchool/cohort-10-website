@@ -329,6 +329,17 @@
 	@include font-size(16);
 }
 
+.thankYou {
+	padding: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+	background: rgba(255, 255, 255, 0.5);
+
+	p {
+		text-align: center;
+	}
+}
+
 /*
    Site footer
    ========================================================================== */
@@ -337,6 +348,7 @@
 	@include outer-container;
 	margin-top: (3 * (0px + $doc-line-height));
 	margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
+	text-align: center;
 	padding-bottom: $gutter;
 	font-family: $alt-font;
   /* Copyright text */
@@ -346,6 +358,9 @@
 		a {
 			color: lighten($black,60);
 			text-decoration: none;
+		}
+		a:hover {
+			color: blue;
 		}
 	}
 }
