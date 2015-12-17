@@ -12,7 +12,7 @@ $(document).ready(function () {
   });
 
 
-  var urls = ['template.json'];
+  var urls = ['template.json', 'Tom_Griffey.json'];
 
   for (var i = 0; i < urls.length; i++) {
 
