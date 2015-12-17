@@ -2,7 +2,7 @@
 
 
 //Student Profile Functions
-(function(){
+$(document).ready(function () {
 
   $('img').bind('mouseenter mouseleave', function() {
       $(this).attr({
@@ -11,4 +11,30 @@
       })
   });
 
-})();
+
+  var urls = ['template.json'];
+
+  for (var i = 0; i < urls.length; i++) {
+
+    $.ajax({
+        url: 'students/' + urls[i]
+    })
+    .done(function (response) {
+        console.log(response);
+        $(window).load(function () {
+        $('#studentProfiles').append("<li class='student-list'>" +
+            "<div class='profile-cell'>" +
+                 "<a class='studentlink' href='" + response.site + "'>" +
+                 "<div class='crop'>" +
+                    "<img class='student-pic' mouseover-src='images/" + response.image + "' src='images/" + response.imageProp + "'>" +
+                  "</div>" +
+                  "<h6 class='student-name'>" + response.name + "</h6></a>" +
+                "<span class='student-bio'>" + response.bio + "</span>" +
+              "</div>" +
+            "</li>")
+      })  
+    })  
+  }
+  
+
+});

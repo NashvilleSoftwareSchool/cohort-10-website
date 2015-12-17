@@ -54,7 +54,7 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          cwd: 'images/',
+          cwd: 'C10Images/',
           src: '{,*/}*.{png,jpg,jpeg}',
           dest: 'images/'
         }]
@@ -95,7 +95,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-svgmin');
   grunt.loadNpmTasks('grunt-imgcompress');
 
-  // Register tasks
+  // Register tasks 
   grunt.registerTask('scripts', ['watch', 'uglify']);
   grunt.registerTask('images', ['newer:imgcompress', 'newer:svgmin']);
 };
