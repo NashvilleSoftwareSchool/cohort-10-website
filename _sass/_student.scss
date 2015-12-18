@@ -33,6 +33,10 @@
   }
 
   .specialization {
+
+    #image-container {
+      max-width: 600px;
+      margin: 0 auto;
     img {
       height: 100px;
       display: inline-block;
@@ -40,8 +44,6 @@
       border-radius: 10px;
     }
 
-    #secondLine {
-      display: block;
 
       i {
         border-radius: 5px;
@@ -49,7 +51,6 @@
         font-size: 72px;
       }
     }
-
     display: block;
     text-align: center;
 
