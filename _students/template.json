@@ -1,3 +1,19 @@
+// Instructions:
+
+// 1. Go to https://github.com/NashvilleSoftwareSchool/cohort-10-website and fork the repo.
+// 2. Clone the repo to your local machine.
+// 3. Inside the _students/ directory, open template.json.
+// 4. Create a new file called Firstname_Lastname.json (your name) in the _students/ directory.
+// 5. Copy the JSON from template.json into your file and fill out the values below.
+// 6. Go to https://docs.google.com/spreadsheets/d/1WLF8Op9AYm6yht0Xg5mAdItYQ0NlMTg8I_3QQmT7rbE/edit#gid=0 
+// 7. In the "image" and "imageProp" fields, use the columns from the Google spreadsheet "Professional" and "Prop"
+// 8. Delete these comments and leave only the JSON. Save the file.
+// 9. Go back to https://github.com/NashvilleSoftwareSchool/cohort-10-website.
+// 10. Create a new Pull Request.
+// 11. Choose to compare across forks if given the option (i.e. compare your fork to the master repo).
+// 12. Submit the pull request. 
+
+
 {
     "name": "First Last",
     "site": "http://www.yourcoolsite.com",

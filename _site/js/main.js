@@ -13,7 +13,7 @@ $(document).ready(function () {
 
 
   var urls = ['template.json', 'Tom_Griffey.json'];
-
+  var studenthtml = [];
   for (var i = 0; i < urls.length; i++) {
 
     $.ajax({
@@ -21,20 +21,30 @@ $(document).ready(function () {
     })
     .done(function (response) {
         console.log(response);
-        $(window).load(function () {
-        $('#studentProfiles').append("<li class='student-list'>" +
-            "<div class='profile-cell'>" +
-                 "<a class='studentlink' href='" + response.site + "'>" +
-                 "<div class='crop'>" +
-                    "<img class='student-pic' mouseover-src='images/" + response.image + "' src='images/" + response.imageProp + "'>" +
-                  "</div>" +
-                  "<h6 class='student-name'>" + response.name + "</h6></a>" +
-                "<span class='student-bio'>" + response.bio + "</span>" +
+        studenthtml.push(response);
+
+      $('#studentProfiles').append("<li class='student-list'>" +
+        "<div class='profile-cell'>" +
+             "<a class='studentlink' href='" + response.site + "'>" +
+             "<div class='crop'>" +
+                "<img class='student-pic' mouseover-src='images/" + response.image + "' src='images/" + response.imageProp + "'>" +
               "</div>" +
-            "</li>")
-      })  
-    })  
+              "<h6 class='student-name'>" + response.name + "</h6></a>" +
+            "<span class='student-bio'>" + response.bio + "</span>" +
+          "</div>" +
+        "</li>")
+    })
   }
+  // console.log(studenthtml);
+  // After for loop has called all ajax:
+    $.ajax({
+        method: "POST",
+        url: "./",
+        data: studenthtml
+    })
+    .done(function (response) {
+        //console.log(response);
+    })
   
 
 });

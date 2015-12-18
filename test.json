@@ -1,0 +1,18 @@
+{
+    "studenthtml": [
+        {
+            "name": "First Last",
+            "site": "http://www.yourcoolsite.com",
+            "image": "headshot.jpg",
+            "imageProp": "prop.jpg",
+            "bio": "This is a short, 2-3 sentence bio about you. Outline what interests you may have and your strengths."
+        },
+        {
+            "name": "Tom Griffey",
+            "site": "http://www.thomasgriffey.com",
+            "image": "headshot.jpg",
+            "imageProp": "prop.jpg",
+            "bio": "A beast."
+        }
+    ]
+}
