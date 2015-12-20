@@ -10,41 +10,14 @@ $(document).ready(function () {
           , 'mouseover-src': $(this).attr('src')
       })
   });
-
-
-  var urls = ['template.json', 'Tom_Griffey.json'];
-  var studenthtml = [];
-  for (var i = 0; i < urls.length; i++) {
-
-    $.ajax({
-        url: 'students/' + urls[i]
-    })
-    .done(function (response) {
-        console.log(response);
-        studenthtml.push(response);
-
-      $('#studentProfiles').append("<li class='student-list'>" +
-        "<div class='profile-cell'>" +
-             "<a class='studentlink' href='" + response.site + "'>" +
-             "<div class='crop'>" +
-                "<img class='student-pic' mouseover-src='images/" + response.image + "' src='images/" + response.imageProp + "'>" +
-              "</div>" +
-              "<h6 class='student-name'>" + response.name + "</h6></a>" +
-            "<span class='student-bio'>" + response.bio + "</span>" +
-          "</div>" +
-        "</li>")
-    })
-  }
-  // console.log(studenthtml);
-  // After for loop has called all ajax:
-    $.ajax({
-        method: "POST",
-        url: "./",
-        data: studenthtml
-    })
-    .done(function (response) {
-        //console.log(response);
-    })
-  
+    
+  $.ajax({
+    method: "GET",
+    url: "students.html",
+    contentType: 'text/html'
+  })
+  .done(function (response) {
+      $('#studentProfiles').append(response);
+  })  
 
 });
