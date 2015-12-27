@@ -54,23 +54,23 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          cwd: 'C10Images/',
-          src: '{,*/}*.{png,jpg,jpeg}',
-          dest: 'images/'
+          cwd: 'images/Group/',
+          src: '2015_12_02_NSS_Cohort_10_Group_0030_T.{png,jpg,jpeg}',
+          dest: 'images/Group'
         }]
       }
     },
     imgcompress: {
       dist: {
         options: {
-          optimizationLevel: 7,
+          optimizationLevel: 3,
           progressive: true
         },
         files: [{
           expand: true,
-          cwd: 'images/',
+          cwd: 'images/Group/',
           src: '{,*/}*.{png,jpg,jpeg}',
-          dest: 'images/'
+          dest: 'images/Group/'
         }]
       }
     },
