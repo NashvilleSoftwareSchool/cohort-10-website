@@ -7,7 +7,7 @@
    ========================================================================== */
 
 body {
-	font-family: 'Hind', sans-serif;;
+	font-family: $base-font;
 	color: $text-color;
 	@include font-size(16);
 }
@@ -23,8 +23,9 @@ li {
 /* Headings */
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: $heading-font;
+	font-family: $base-font;
 	text-rendering: optimizeLegibility; // Fix the character spacing for headings
+    color: $header-color;
 }
 h1 {
 	@include font-size(36);

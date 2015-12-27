@@ -52,7 +52,7 @@ setTimeout(function () {
       for (var i=0; i < parsedData.students.length; i++) {
         htmlData += "<li class='student-list'>" + "\n" + "  " +
           "<div class='profile-cell'>" + "\n" + "     " +
-            "<a class='studentlink' href='" + parsedData.students[i].site.toString() + "'>" + "\n" + "        " +
+            "<a class='studentlink' href='" + parsedData.students[i].site.toString() + "' target='_blank'>" + "\n" + "        " +
                 "<div class='crop'>" + "\n" + "            " +
                     "<img class='student-pic' mouseover-src='images/2015_12_02_NSS_" + parsedData.students[i].imageProp.toString() + "_T.jpg' src='images/2015_12_02_NSS_" + parsedData.students[i].image.toString() + "_T_BW.jpg'>" + "\n" + "        " +
                 "</div>" + "\n" + "        " +

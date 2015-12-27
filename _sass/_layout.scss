@@ -7,7 +7,9 @@
    ========================================================================== */
 
 #masthead {
-	padding: $gutter;
+	padding-left: $gutter;
+	padding-right: $gutter;
+	padding-top: $gutter;
 	z-index: 5;
 	@include transform(translate(0,0));
 	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
@@ -20,14 +22,11 @@
 }
 .site-title {
 	@include row;
-	@include media($large) {
-		@include span-columns(4);
-	}
 	padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
-	height: $masthead-height;
+	// height: $masthead-height;
 	text-decoration: none;
 	color: $black;
-	font-family: 'Hind', Helvetica, Arial, sans-serif;
+	font-family: $heading-font;
 	font-weight: 700;
 	@include font-size(20,no);
 	line-height: .5 * $masthead-height; // half the height to center vertically
@@ -53,8 +52,8 @@
 			display: block;
 			margin-right: $gutter;
 			padding: (.25 * $masthead-height) 0 (.25 * $masthead-height) ;
-			height: $masthead-height;
-			font-family: $alt-font;
+			// height: $masthead-height;
+			font-family: $base-font;
 			&:before,
 			&:after {
 				content: '';
@@ -85,17 +84,17 @@
 
 .top-menu {
 	//display: none;
-	position: relative;
-	@include media($medium) {
-		@include span-columns(12);
-	}
-	@include media($large) {
-		@include span-columns(7);
-		ul {
-			position: absolute;
-			right: 0;
-		}
-	}
+	// position: relative;
+	// @include media($medium) {
+	// 	@include span-columns(12);
+	// }
+	// @include media($large) {
+	// 	@include span-columns(7);
+	// 	ul {
+	// 		position: absolute;
+	// 		right: 0;
+	// 	}
+	// }
 	.home,
 	.sub-menu-item {
 		//display: none;
@@ -350,10 +349,10 @@
 	margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
 	text-align: center;
 	padding-bottom: $gutter;
-	font-family: $alt-font;
+	font-family: $base-font;
   /* Copyright text */
 	.copyright {
-		@include font-size(12);
+		@include font-size(14);
 		color: lighten($black,60);
 		a {
 			color: lighten($black,60);

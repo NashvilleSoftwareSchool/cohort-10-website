@@ -1,5 +1,23 @@
+#page-wrapper h1.title {
+  text-align: center;
+  margin-top: 0;
+  font-family: $heading-font;
+  z-index: 99;
+  color: white;
+  // letter-spacing: 0.5em;
+  position: relative;
+  z-index: 99;
+
+}
+
 .home {
-  margin-top: 20px;
+  margin-top: -175px;
+  position: relative;
+  z-index: -1;
+
+  .group-pic:hover {
+    cursor: pointer;
+  }
   
   h1 {
     text-align: center;
@@ -12,6 +30,8 @@
     margin-top: -75px;
     color: white;
     margin-bottom: 100px;
+    font-family: $base-font;
+    letter-spacing: 0.5em;
   }
 
   .student-list {
@@ -104,11 +124,11 @@ span.student-bio {
 h6.student-name{
     margin: 0px;
     padding: 0px 0;
-    color: #036067;
+    color: $header-color;
     text-align: center;
   }
 h6.student-name:hover {
-  color: #357f85;
+  color: $caption-color;
 }
 
   .home .profile-cell {
@@ -121,11 +141,7 @@ h6.student-name:hover {
 
 
 nav ul li a:hover{
-  color: #82B222;
-}
-
-h1 {
-  color: #357f85 !important;
+  color: $caption-color;
 }
 h1.title {
   color: white !important;
@@ -144,12 +160,6 @@ body{
 
 .menu-item{
   float: right !important;
-}
-
-.site-title{
-  color: #357f85 !important;
-  text-align: center;
-  font-size: 48px;
 }
 
 @media (max-width: 700px) {

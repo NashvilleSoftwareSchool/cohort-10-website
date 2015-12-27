@@ -7,7 +7,7 @@
    ========================================================================== */
 
 $base-font                   	: 'Gudea', sans-serif;
-$heading-font                	: 'Hind', Helvetica, Arial, sans-serif;
+$heading-font                	: 'Montserrat Subrayada', Helvetica, Arial, sans-serif;
 $caption-font                	: $base-font;
 $code-font                   	: monospace;
 $alt-font                    	: $heading-font;
@@ -26,8 +26,9 @@ $black                        : #000;
 
 $body-color                  	: #ebebeb;
 
-$text-color                  	: #313130;
-$caption-color                : mix($white, $text-color, 25%);
+$text-color                  	: $black;
+$header-color                 : #BD4932;
+$caption-color                : mix($white, $header-color, 25%);
 
 $base-color                  	: #343434;
 $comp-color                  	: complement($base-color);
