@@ -13,6 +13,11 @@ app.use(bodyParser.urlencoded({
 
 // All filenames for student data.
 var urls = [
+    'danielcossins.json',
+    'Peter_Connolly.json',
+    'Rachel_Morgan.json',
+    'Ryan_Tanay.json',
+    'Seth_Dorris.json',
     'Tom_Griffey.json'
 ];
 
