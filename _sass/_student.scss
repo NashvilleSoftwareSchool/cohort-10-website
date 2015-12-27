@@ -1,6 +1,31 @@
+#page-wrapper h1.title {
+  text-align: center;
+  margin-top: 0;
+  font-family: $heading-font;
+  z-index: 99;
+  color: white;
+  // letter-spacing: 0.5em;
+  position: relative;
+  z-index: 99;
+
+}
+
 .home {
+  margin-top: -175px;
+  position: relative;
+  z-index: -1;
+
+  .group-pic:hover {
+    cursor: pointer;
+  }
+  
   h1 {
     text-align: center;
+  }
+
+  h1.header {
+    margin: 0;
+    padding: 10px;
   }
 
   .separator {
@@ -10,6 +35,8 @@
     margin-top: -75px;
     color: white;
     margin-bottom: 100px;
+    font-family: $base-font;
+    letter-spacing: 0.5em;
   }
 
   .student-list {
@@ -30,9 +57,11 @@
 
   .meetus {
     text-align: center;
+    background: rgba(0, 0, 0, 0.1);
   }
 
   .specialization {
+    background: rgba(255, 255, 255, 0.5);
 
     #image-container {
       max-width: 600px;
@@ -102,11 +131,11 @@ span.student-bio {
 h6.student-name{
     margin: 0px;
     padding: 0px 0;
-    color: #036067;
+    color: $header-color;
     text-align: center;
   }
 h6.student-name:hover {
-  color: #357f85;
+  color: $caption-color;
 }
 
   .home .profile-cell {
@@ -119,11 +148,7 @@ h6.student-name:hover {
 
 
 nav ul li a:hover{
-  color: #82B222;
-}
-
-h1 {
-  color: #357f85 !important;
+  color: $caption-color;
 }
 h1.title {
   color: white !important;
@@ -133,7 +158,7 @@ h1.title {
 }
 
 body{
-  background-image: url("/images/furley.png") !important;
+  background-image: url("/images/background.jpg") !important;
 }
 
 .inner-wrap {
@@ -144,13 +169,8 @@ body{
   float: right !important;
 }
 
-.site-title{
-  color: #357f85 !important;
-}
-
 @media (max-width: 700px) {
   h1.title {
-
     font-size: 40px;
   }
 }
@@ -163,7 +183,13 @@ body{
 
 @media (max-width: 700px) {
   .site-title {
-    display: inline-block !important;
+    display: block !important;
+  }
+}
+
+@media (max-width: 1065px) {
+  .site-title {
+    font-size: 24px;
   }
 }
 

@@ -1,0 +1,46 @@
+{
+    "students": [
+        {
+            "name": "Daniel Cossins",
+            "site": "http://danelcossins.com",
+            "image": "Cohort_10_1095",
+            "imageProp": "Cohort_10_1083",
+            "bio": "I love soving complex problems and building applications from the ground up. On the side, I enjoy martial arts and water sports."
+        },
+        {
+            "name": "Peter Connolly",
+            "site": "http://www.peterconnolly.com",
+            "image": "Cohort_10_1072",
+            "imageProp": "Cohort_10_1061",
+            "bio": "Life's a garden. Dig it! - Joe Dirt"
+        },
+        {
+            "name": "Rachel Morgan",
+            "site": "http://www.rachleemorgan.com/",
+            "image": "Cohort_10_1017",
+            "imageProp": "Cohort_10_1009",
+            "bio": "Hardworking individual who thrives in a fast-paced environment, enjoys speaking fluent sarcasm and has a small obsession with TMNT."
+        },
+        {
+            "name": "Seth Dorris",
+            "site": "https://www.github.com/sethdorris",
+            "image": "Cohort_10_0292",
+            "imageProp": "Cohort_10_0273",
+            "bio": "Former Active Duty Army Captain turned Software Developer. I love C#/.NET, my two french bulldogs (Pig and Bentley), football and working out."
+        },
+        {
+            "name": "Ryan Tanay",
+            "site": "http://portfolio.ryantanay.com",
+            "image": "Cohort_10_0946",
+            "imageProp": "Cohort_10_0940",
+            "bio": "With a background in digital art computer hardware and networking I'd dabbled in code before NSS. Nothing beats the satisfaction of learning a new technique or technology and using it to solve the problem at hand."
+        },
+        {
+            "name": "Tom Griffey",
+            "site": "http://www.thomasgriffey.com",
+            "image": "Cohort_10_0901",
+            "imageProp": "Cohort_10_0869",
+            "bio": "Rock 'n roll in human form. Music tech enthusiast and musician who eats new technologies for breakfast. Also passionate about education, civic hacking and youth development through the arts."
+        }
+    ]
+}

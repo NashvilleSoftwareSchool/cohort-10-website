@@ -1,7 +1,27 @@
+// Instructions:
+
+// 1. Save this file as Firstname_Lastname.json (your name...)
+// 2. Go to https://docs.google.com/spreadsheets/d/1WLF8Op9AYm6yht0Xg5mAdItYQ0NlMTg8I_3QQmT7rbE/edit#gid=0 
+// 3. In the "image" and "imageProp" fields, use the columns from the Google spreadsheet "Professional" and "Prop", ex. "Cohort_10_0123" (no file extension needed)
+// 4. Delete these comments and leave only the JSON. Save the file.
+// 5. Upload this file with Google Drive at https://drive.google.com/folderview?id=0B-qD2Qbnzc_fLTJRWFJKaTl4YzA&usp=sharing
+
+// ** NOTE about BIOS: Beware of going too long with the bios as they will need to fit under your picture. 
+// Here's one of the longer ones from Cohort 9 for context: 
+
+// "Strategic thinker & collaborator. I love finding exciting & engaging ways business, design, & tech can solve problems. 
+// Some of my favorite things: pho, tap dancing , late-night coding and snacking."
+
+
+
+
+// Let me know if you have trouble with any of the above, tgriffey9389@gmail.com.
+// Please upload your info by Tuesday January 5th so I can have time to make sure the page is set by demo day. 
+
 {
-    "name": "First Last",
+    "name": "Genghis Khan",
     "site": "http://www.yourcoolsite.com",
-    "image": "headshot.jpg",
-    "imageProp": "prop.jpg",
+    "image": "Cohort_10_0123",
+    "imageProp": "Cohort_10_5555",
     "bio": "This is a short, 2-3 sentence bio about you. Outline what interests you may have and your strengths."
 }
