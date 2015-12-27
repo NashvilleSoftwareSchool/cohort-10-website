@@ -332,8 +332,8 @@
 	padding: 20px;
 	margin-left: 20%;
 	margin-right: 20%;
-	background: rgba(255, 255, 255, 0.5);
-
+	// background: rgba(255, 255, 255, 0.5);
+	border-bottom: 2px solid black;
 	p {
 		text-align: center;
 	}
@@ -346,7 +346,7 @@
 #site-footer {
 	@include outer-container;
 	margin-top: (3 * (0px + $doc-line-height));
-	margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
+	margin-top: 20px;
 	text-align: center;
 	padding-bottom: $gutter;
 	font-family: $base-font;

@@ -23,6 +23,11 @@
     text-align: center;
   }
 
+  h1.header {
+    margin: 0;
+    padding: 10px;
+  }
+
   .separator {
     border: 3px solid black;
   }
@@ -52,9 +57,11 @@
 
   .meetus {
     text-align: center;
+    background: rgba(0, 0, 0, 0.1);
   }
 
   .specialization {
+    background: rgba(255, 255, 255, 0.5);
 
     #image-container {
       max-width: 600px;
