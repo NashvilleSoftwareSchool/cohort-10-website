@@ -13,12 +13,28 @@ app.use(bodyParser.urlencoded({
 
 // All filenames for student data.
 var urls = [
+    'Austin_Scott.json',
+    'Brendon_Pierson.json',
+    'Brittney_Corona.json',
+    'Caitlin_Stein.json',
+    'Dan_Hodges.json',
     'danielcossins.json',
+    'Deric_Bunch.json',
+    'Jeremy_Grondahl.json',
+    'Jesse_Turner.json',
+    'Juan_Rodriguez.json',
+    'Lynn_Samuelson.json',
+    'Mary_Kergosien.json',
     'Peter_Connolly.json',
     'Rachel_Morgan.json',
+    'Richard_Aites.json',
+    'Robin_Burton.json',
     'Ryan_Tanay.json',
+    'Sally_Fisher.json',
     'Seth_Dorris.json',
-    'Tom_Griffey.json'
+    'Shelley_DavisWise.json',
+    'Tom_Griffey.json',
+    'Wayne_Hutchinson.json'
 ];
 
 var finalJson = {students: []};

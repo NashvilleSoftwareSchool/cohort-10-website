@@ -1,6 +1,48 @@
 {
     "students": [
         {
+            "name": "Austin Scott",
+            "site": "http://CodingScott.com",
+            "image": "Cohort_10_0937",
+            "imageProp": "Cohort_10_0902",
+            "bio": "Coding and Cooking are my passion. I can share my stories and recipes through the digital media I create."
+        },
+        {
+            "name": "Brittney Corona",
+            "site": "http://www.brittneycorona.com/",
+            "image": "Cohort_10_0471",
+            "imageProp": "Cohort_10_0463",
+            "bio": "I love designing programs that are useful and inspiring. When I'm not busy reading, I enjoy spending time with my friends and family."
+        },
+        {
+            "name": "Caitlin Stein",
+            "site": "http://www.caitlinstein.com",
+            "image": "Cohort_10_0986",
+            "imageProp": "Cohort_10_0970",
+            "bio": "I'm a full-stack software developer. Learning, playing, and making are my passions, but I promise I'm still an adult. I love spending time with my family, knitting, and distance running."
+        },
+        {
+            "name": "Brendon Pierson",
+            "site": "http://brendonpierson.info/",
+            "image": "Cohort_10_0609",
+            "imageProp": "Cohort_10_0605",
+            "bio": "Former science teacher, used coding to grade work, realized he likes coding way more than teaching, thanks to NSS lives happily ever after."
+        },
+        {
+            "name": "Dan Hodges",
+            "site": "http://www.dan-hodges.com",
+            "image": "Cohort_10_0816",
+            "imageProp": "Cohort_10_0785",
+            "bio": "Creative thinker, team player, and problem solver. Loves investigating vintage guitar amps and escaping from city life via kayak."
+        },
+        {
+            "name": "Deric Bunch",
+            "site": "http://www.dericbunch.com/",
+            "image": "Cohort_10_0851",
+            "imageProp": "Cohort_10_0834",
+            "bio": "Background in biology and chemistry. Enjoy the critical thinking of development and the aesthetics of design in the coding world. Passionate about drumming, video gaming, and Kentucky Basketball."
+        },
+        {
             "name": "Daniel Cossins",
             "site": "http://danelcossins.com",
             "image": "Cohort_10_1095",
@@ -8,11 +50,39 @@
             "bio": "I love soving complex problems and building applications from the ground up. On the side, I enjoy martial arts and water sports."
         },
         {
-            "name": "Peter Connolly",
-            "site": "http://www.peterconnolly.com",
-            "image": "Cohort_10_1072",
-            "imageProp": "Cohort_10_1061",
-            "bio": "Life's a garden. Dig it! - Joe Dirt"
+            "name": "Jeremy Grondahl",
+            "site": "http://www.jkgrondahl.com",
+            "image": "Cohort_10_0113",
+            "imageProp": "Cohort_10_0070",
+            "bio": "Creative & hard-working. I enjoy working with others, learning new technologies, volunteering, and problem solving. I love to write short-stories, create songs, code and spend time with my wife."
+        },
+        {
+            "name": "Jesse Turner",
+            "site": "http://www.jesseturner.net",
+            "image": "Cohort_10_1051",
+            "imageProp": "Cohort_10_1039",
+            "bio": "After 15 years in manufacturing management I'm leaping into my next challenge using my skills in efficiency, creativity, organization, continuous improvement & problem solving."
+        },
+        {
+            "name": "Lynn Samuelson",
+            "site": "http://www.lynnsamuelson.com",
+            "image": "Cohort_10_0384",
+            "imageProp": "Cohort_10_0361",
+            "bio": "A science nerd through and through, I am passionate about approaching problems from multiple angles and learning everything."
+        },
+        {
+            "name": "Juan Rodriguez",
+            "site": "http://www.juanrod.co",
+            "image": "Cohort_10_0772",
+            "imageProp": "Cohort_10_0758",
+            "bio": "I'm always trying to incorporate my creative instincts in an effective and efficient manner - online and offline. When I'm not working, I'm in the kitchen perfecting my salsa recepe."
+        },
+        {
+            "name": "Mary Kergosien",
+            "site": "http://www.MaryRN.com",
+            "image": "Cohort_10_0696",
+            "imageProp": "Cohort_10_0665",
+            "bio": "As an RN trained as a developer, I hope to improve the state of healcare solutions. I'm a geek who loves board games, hosting events, and taking on leadership roles in the community."
         },
         {
             "name": "Rachel Morgan",
@@ -22,11 +92,25 @@
             "bio": "Hardworking individual who thrives in a fast-paced environment, enjoys speaking fluent sarcasm and has a small obsession with TMNT."
         },
         {
-            "name": "Seth Dorris",
-            "site": "https://www.github.com/sethdorris",
-            "image": "Cohort_10_0292",
-            "imageProp": "Cohort_10_0273",
-            "bio": "Former Active Duty Army Captain turned Software Developer. I love C#/.NET, my two french bulldogs (Pig and Bentley), football and working out."
+            "name": "Peter Connolly",
+            "site": "http://www.peterconnolly.co",
+            "image": "Cohort_10_1072",
+            "imageProp": "Cohort_10_1061",
+            "bio": "Life's a garden. Dig it! - Joe Dirt"
+        },
+        {
+            "name": "Richard Aites",
+            "site": "http://www.8sPlace.com/",
+            "image": "Cohort_10_0597",
+            "imageProp": "Cohort_10_0552",
+            "bio": "Thrilled every time an idea works! Writing some code that does what I intended never fails to inspire a desire to write more code. I also enjoy motorcycling, tennis with my wife, and family time at the beach."
+        },
+        {
+            "name": "Robin Burton",
+            "site": "http://rob1nburt0n.github.io/resume/",
+            "image": "Cohort_10_0433",
+            "imageProp": "Cohort_10_0455",
+            "bio": "Radiology Technologist with 10 years of healthcare experience. Passionate about breast cancer research and awareness. Very excited to use new programming skills to merge prior experience with the IT field."
         },
         {
             "name": "Ryan Tanay",
@@ -36,11 +120,39 @@
             "bio": "With a background in digital art computer hardware and networking I'd dabbled in code before NSS. Nothing beats the satisfaction of learning a new technique or technology and using it to solve the problem at hand."
         },
         {
+            "name": "Sally Fisher",
+            "site": "http://sallyfish.com",
+            "image": "Cohort_10_0334",
+            "imageProp": "Cohort_10_0325",
+            "bio": "Emerging web developer, experienced problem solver. Some of my favorite things include AngularJS, cats, and protein folding."
+        },
+        {
+            "name": "Seth Dorris",
+            "site": "https://www.github.com/sethdorris",
+            "image": "Cohort_10_0292",
+            "imageProp": "Cohort_10_0273",
+            "bio": "Former Active Duty Army Captain turned Software Developer. I love C#/.NET, my two french bulldogs (Pig and Bentley), football and working out."
+        },
+        {
+            "name": "Shelley Davis-Wise",
+            "site": "http://shelleydaviswise.github.io/",
+            "image": "Cohort_10_0520",
+            "imageProp": "Cohort_10_0501",
+            "bio": "Detailed thinker and planner. I look forward to using my communication skills toward the development of thoughtful, useful and elegant software solutions. I believe excellence lies in the intersection of beauty and utility."
+        },
+        {
             "name": "Tom Griffey",
             "site": "http://www.thomasgriffey.com",
-            "image": "Cohort_10_0901",
-            "imageProp": "Cohort_10_0869",
+            "image": "Cohort_10_0869",
+            "imageProp": "Cohort_10_0901",
             "bio": "Rock 'n roll in human form. Music tech enthusiast and musician who eats new technologies for breakfast. Also passionate about education, civic hacking and youth development through the arts."
+        },
+        {
+            "name": "Wayne Hutchinson",
+            "site": "http://www.wfhutch.github.io",
+            "image": "Cohort_10_0045",
+            "imageProp": "Cohort_10_0011",
+            "bio": "I love to play drums, guitar, and piano. Anxious to start my new career as a software developer!"
         }
     ]
 }

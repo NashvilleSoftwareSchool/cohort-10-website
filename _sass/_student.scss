@@ -96,7 +96,7 @@
     display: inline-block;
     width: 280px;
     margin: 10px 3px ;
-    height: 535px;
+    height: 550px;
     background-size: cover;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -208,4 +208,9 @@ body{
     float: left;
 
   }
+}
+
+// Correcting offsetting padding.
+#studentProfiles {
+  padding-left: 0px !important;
 }
