@@ -329,13 +329,19 @@
 }
 
 .thankYou {
-	padding: 20px;
+	padding-top: 20px;
 	margin-left: 20%;
 	margin-right: 20%;
 	// background: rgba(255, 255, 255, 0.5);
-	border-bottom: 2px solid black;
 	p {
 		text-align: center;
+	}
+
+	a {
+		color: $header-color;
+	}
+	a:hover {
+		color: $caption-color;
 	}
 }
 

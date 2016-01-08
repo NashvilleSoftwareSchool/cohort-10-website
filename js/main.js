@@ -24,16 +24,27 @@ $(document).ready(function () {
     contentType: 'text/html'
   })
   .done(function (response) {
-      $('#studentProfiles').append(response);
+      $('#studentProfiles').append(response); 
 
-      // Switches image on hover
-      $('img').bind('mouseenter mouseleave', function() {
-          $(this).attr({
-              src: $(this).attr('mouseover-src'),
-              'mouseover-src': $(this).attr('src')
-          })
-      });
+      $.ajax({
+        method: "GET",
+        url: "teachers.html",
+        contentType: 'text/html'
+      })
+      .done(function (response) {
+          $('#teacherProfiles').append(response);
 
-      
-  }) // End ajax done function  
-});
+          // Switches image on hover
+          $('img').bind('mouseenter mouseleave', function() {
+              $(this).attr({
+                  src: $(this).attr('mouseover-src'),
+                  'mouseover-src': $(this).attr('src')
+              })
+          });
+      }) // End ajax done function 
+
+  }) // End ajax done function
+
+  
+
+}); // End doc.ready 

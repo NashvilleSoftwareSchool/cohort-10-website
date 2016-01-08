@@ -96,7 +96,7 @@
     display: inline-block;
     width: 280px;
     margin: 10px 3px ;
-    height: 535px;
+    height: 550px;
     background-size: cover;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -209,3 +209,22 @@ body{
 
   }
 }
+
+// Correcting offsetting padding.
+#studentProfiles {
+  padding-left: 0px !important;
+}
+
+#teacherProfiles {
+  text-align: center;
+  padding-left: 0px !important;
+
+  div.profile-cell {
+    height: 475px;
+  }
+
+  li.student-list:nth-of-type(3) .crop {
+    height: 400px;
+  }
+
+} 
